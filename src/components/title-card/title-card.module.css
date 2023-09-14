@@ -1,0 +1,74 @@
+.titleCard a > img {
+  width: 100%;
+  height: auto;
+}
+
+.titleCard {
+  width: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .titleCard {
+    width: 346px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .titleCard {
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .titleCard {
+    width: 250px;
+  }
+}
+
+.titleCard span[data-title-tag],
+.titleCard button {
+  position: absolute;
+  top: 16px;
+  background-color: rgba(243, 244, 246, 50%);
+}
+
+.titleCard span[data-title-tag] {
+  left: 16px;
+  display: block;
+  padding: 3px 8px;
+  border-radius: 12px;
+
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #111827;
+}
+
+.titleCard button {
+  left: auto;
+  right: 16px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleCard *[data-info] {
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9ca3af;
+}
+
+.titleCard h3 {
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}

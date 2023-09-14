@@ -1,0 +1,34 @@
+.heading1 {
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.bodySmall {
+  font-family: var(--font-sans-serif);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.bodyBig {
+  font-family: var(--font-sans-serif);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.button {
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.heading2 {
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46.87px;
+}
