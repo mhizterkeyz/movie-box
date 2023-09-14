@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Setup Environment Variables:
+
+```bash
+cp .env.example .env.local
+```
+
+Fill in your TMDB API Key into the newly created .env.local file and then
+
+Run the development server:
 
 ```bash
 npm run dev
