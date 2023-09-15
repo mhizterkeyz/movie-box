@@ -28,7 +28,7 @@ export const TitleCard = ({
           />
         </button>
 
-        <a href={`/${id}`}>
+        <a href={`/movies/${id}`}>
           <Image
             data-testid="movie-poster"
             src={image}
@@ -44,7 +44,7 @@ export const TitleCard = ({
         </span>
 
         <h3 data-testid="movie-title">
-          <a href={`/${id}`}>{title}</a>
+          <a href={`/movies/${id}`}>{title}</a>
         </h3>
 
         <div className="d-row justify-content-space-between align-items-center">
